@@ -19,8 +19,12 @@
 }
 
 #content {
+    text-align: center;
     margin-left: 18em;
-    width: 23em;
+    background-color: rgba(1, 26, 255, 0.289);
+    width: 30em;
+    height: 30em;
+    border: 2px solid black;
 }
 
 #options {
