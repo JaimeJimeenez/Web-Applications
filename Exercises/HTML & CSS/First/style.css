@@ -4,14 +4,22 @@
 }
 
 #title {
-    border: 2px solid black;
     background-color: rgba(1, 26, 255, 0.289);
+    border: 2px solid black;
     text-align: center;
-    padding: 2em;
+    padding: 20px;
+}
+
+#logo {
+    display: none;
 }
 
 #navegation {
     display: none;
+}
+
+.contener {
+    height: 40em;
 }
 
 #options {
@@ -19,17 +27,17 @@
 }
 
 #content {
-    text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
-    height: 30em;
     background-color: rgba(1, 26, 255, 0.289);
     border: 2px solid black;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 98%;
+    text-align: center;
 }
 
 #foot {
     background-color: rgba(1, 26, 255, 0.289);
-    height: 9em;
     border: 2px solid black;
+    height: 10em;
     text-align: center;
 }
