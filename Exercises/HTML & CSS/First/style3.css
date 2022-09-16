@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 5px;
+}
+
+#title {
+    border: 2px solid black;
+    background-color: rgba(1, 26, 255, 0.289);
+    text-align: center;
+    padding: 2em;
+}
+
+#navegation {
+    display: block;
+    border: 2px solid black;
+    background-color: rgba(1, 26, 255, 0.289);
+}
+
+#options {
+    display: block;
+}
+
+#content {
+    margin: 10px;
+    margin-left: 15em;
+}

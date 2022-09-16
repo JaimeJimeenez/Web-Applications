@@ -10,26 +10,26 @@
     padding: 2em;
 }
 
+#logo {
+    display: none;
+}
+
 #navegation {
     display: none;
 }
 
-#options {
-    display: none;
-}
-
 #content {
-    text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
-    height: 30em;
-    background-color: rgba(1, 26, 255, 0.289);
-    border: 2px solid black;
+    margin-left: 18em;
+    width: 23em;
 }
 
-#foot {
-    background-color: rgba(1, 26, 255, 0.289);
-    height: 9em;
-    border: 2px solid black;
+#options {
     text-align: center;
+    background-color: rgba(1, 26, 255, 0.289);
+    border: 2px solid black;
+    margin-left: 5.5px;
+    width: 16.5em;
+    height: 30em;
+    display: block;
+    float: left;
 }
