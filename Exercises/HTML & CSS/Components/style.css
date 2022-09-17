@@ -1,0 +1,13 @@
+.rojo {
+    color: red;
+}
+
+.resaltado {
+    background: lightgray;
+}
+
+h1 {
+    text-align: center;
+    background-color: red;
+    height: 2em;
+}
