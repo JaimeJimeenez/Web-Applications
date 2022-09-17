@@ -1,0 +1,56 @@
+#identification {
+    float: right;
+    border: 2px solid black;
+}
+
+#content {
+    display: none;
+}
+
+#options {
+    display:none;
+}
+
+.contener{
+    height: 35em;
+}
+
+.article {
+    float: none;
+    text-align: center;
+    height: 88%;
+    width: 55%;
+}
+
+.article div {
+    margin: 5px;
+    height: 5%;
+}
+
+#article1 {
+    display:none;
+}
+
+#article2 {
+    display:none;
+}
+
+.news {
+    float:right;
+    background-color: rgba(1, 26, 255, 0.289);
+    height: 88%;
+    width: 40%;
+}
+
+.news div {
+    text-align: center;
+    border: 2px solid black;
+}
+
+#search {
+    padding: 12%;
+}
+
+#result {
+    padding: 28%;
+}

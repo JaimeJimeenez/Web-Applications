@@ -3,12 +3,13 @@
     background-color: rgba(1, 26, 255, 0.289);;
     border: 2px solid black;
     margin-bottom: 7px;
+    padding: 10px;
 }
 
 #options {
-    height: 90%;
+    height: 89%;
 }
 
 #content {
-    height: 90%;
+    height: 88%;
 }
