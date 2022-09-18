@@ -12,18 +12,17 @@ h1 {
     background: lightgray;
 }
 
-#links div {
-    display: inline;
+#links span {
     margin: 10px;
     background-color: black;
     padding: 8px;
 }
 
-#links div a {
+#links span a {
     text-decoration: none;
 }
 
-#links div a:link, a:active, a:visited {
+#links span a:link, a:active, a:visited {
     text-decoration: none;
     color: white
 }
