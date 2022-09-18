@@ -1,3 +1,9 @@
+h1 {
+    text-align: center;
+    background-color: red;
+    height: 2em;
+}
+
 .rojo {
     color: red;
 }
@@ -6,8 +12,23 @@
     background: lightgray;
 }
 
-h1 {
-    text-align: center;
-    background-color: red;
-    height: 2em;
+#links div {
+    display: inline;
+    margin: 10px;
+    background-color: black;
+    padding: 8px;
+}
+
+#links div a {
+    text-decoration: none;
+}
+
+#links div a:link, a:active, a:visited {
+    text-decoration: none;
+    color: white
+}
+
+.social div{
+    background-color: grey;
+    display: inline;
 }
