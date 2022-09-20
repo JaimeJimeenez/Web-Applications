@@ -1,15 +1,21 @@
 #options {
-    text-align: center;
+    display: inline;
     float: left;
-    display: block;
+    text-align: center;
     background-color: rgba(1, 26, 255, 0.289);
-    border: 2px solid black;
+    border:2px solid black;
+    width: 23.8%;
     height: 98%;
-    width: 25%;
+}
+
+#options h3 {
+    font-weight: normal;
 }
 
 #content {
-    padding: 5px;
-    margin-left: 27%;
-    margin-right: 0;
+    width: 74.3%;
+}
+
+.article {
+    display: none;
 }

@@ -1,41 +1,36 @@
 #logo {
     display: block;
     float: left;
+    padding: 20px;
     border: 2px solid black;
 }
 
-#logo p {
-    padding: 12px;
-}
-
-.contener {
-    height: 20em;
-}    
-
 #content {
-    margin-right: 21%;
-    height: 77%
-}
-
-#options {
-    height: 77%;
+    width: 49%;
 }
 
 .article {
-    display: block;
+    display: inline;
+    width: 24.5%;
+    height: 98%;
     float: right;
-    width: 13%;
-    padding-right: 6%;
-    
 }
 
-.article div {
-    margin-bottom: 50%;
+.article div h3 {
+    font-weight: normal;
+}
+
+#art1 {
+    text-align: center;
     border: 2px solid black;
+    padding-bottom: 45%;
     background-color: rgba(1, 26, 255, 0.289);
-    padding: 5%;
-    margin-right: 25%;
-    width: 75%;
-    padding-bottom: 25%;
-    padding-left: 25%;
+}
+
+#art2 {
+    text-align: center;
+    border: 2px solid black;
+    padding-bottom: 45%;
+    background-color: rgba(1, 26, 255, 0.289);
+
 }
