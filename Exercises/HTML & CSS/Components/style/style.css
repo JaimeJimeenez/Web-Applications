@@ -1,0 +1,70 @@
+h1 {
+    text-align: center;
+    background-color: red;
+    height: 2em;
+    color: grey;
+    padding: 25px;
+}
+
+.rojo {
+    color: red;
+}
+
+.resaltado {
+    background: lightgray;
+}
+
+#links span {
+    margin: 10px;
+    background-color: black;
+    padding: 8px;
+}
+
+#links span a {
+    text-decoration: none;
+}
+
+#links span a:link, a:active, a:visited {
+    text-decoration: none;
+    color: white
+}
+
+#tc {
+    font-style: italic;
+}
+
+.tcGrey {
+    background-color: grey;
+}
+
+#breakfast {
+    background-color: orange;
+}
+
+.breakfastHour {
+    background-color: yellow;
+}
+
+#break {
+    background-color: rgb(207, 153, 224);
+}
+
+.breakHour {
+    background-color: pink;
+}
+
+#lunch {
+    background-color: green;
+}
+
+.lunchHour {
+    background-color: greenyellow;
+}
+
+.social div{
+    display: inline;
+}
+
+.social div img {
+    background-color: black;
+}

@@ -5,7 +5,7 @@
     <head>
         <title> CSS Básico </title>
         <meta charset = "UTF - 8">
-        <link rel="stylesheet" href = "./style.css">
+        <link rel = "stylesheet" href = "./style/style.css">
     </head>
 
     <body>
@@ -14,39 +14,100 @@
             <h1> UCM - Campus de verano 20xx </h1>
         </header>
         
-        <div id = "links">
-            <span id = "courses">
-                <a href = "https://www.ucm.es/escuelacomplutense/cursos-1"> Cursos </a>
-            </span>
-            <span id = "sports">
-                <a href = "https://www.ucm.es/deportesucm"> Deportes </a>
-            </span>
-            <span id = "cafetery">
-                <a href = "https://www.ucm.es/cafeterias"> Cafeteria </a>
-            </span>
-            <span id = "ocio">
-                <a href = "https://www.ucm.es/file/summer-camps-2022.-ucm_compressed"> Ocio </a>
-            </span>
-        </div>
+        <section>
+            <div id = "links">
 
-        <p>
-            Los <strong class = "rojo"> horarios </strong> que aparecen en esta página <strong class = "rojo resaltado"> podrán modificarse</strong>.
-        </p>
-        <p>
-            Cualquier <strong> consulta </strong> debe enviarse a <a href = "mailto:campusVerano2020@ucm.es"> campusVerano2020@ucm.es </a>
-        </p>
+                <span id = "courses">
+                    <a href = "https://www.ucm.es/escuelacomplutense/cursos-1"> Cursos </a>
+                </span>
 
-        <div class = "social">
-            <div id = "facebook">
-                <a href = "">Facebook</a>
+                <span id = "sports">
+                    <a href = "https://www.ucm.es/deportesucm"> Deportes </a>
+                </span>
+
+                <span id = "cafetery">
+                    <a href = "https://www.ucm.es/cafeterias"> Cafeteria </a>
+                </span>
+
+                <span id = "ocio">
+                    <a href = "https://www.ucm.es/file/summer-camps-2022.-ucm_compressed"> Ocio </a>
+                </span>
+
             </div>
-            <div id = "twitter">
-                <a href = ""> Twitter </a>
+        </section>
+        
+        <br>
+
+        <section>
+            <table id = "tc">
+
+                <caption class = "tcGrey"> Cafetería </caption>
+                <tr>
+                    <th> </th>
+                    <th class = "tcGrey"> L </th>
+                    <th class = "tcGrey"> M </th>
+                    <th class = "tcGrey"> X </th>
+                    <th class = "tcGrey"> J </th>
+                    <th class = "tcGrey"> V </th>
+                </tr>
+
+                <tr>
+                    <td id = "breakfast"> Desayuno </td>
+                    <td class = "breakfastHour"> 9 - 10 </td>
+                    <td class = "breakfastHour"> 9 - 10 </td>
+                    <td class = "breakfastHour"> 9 - 10 </td>
+                    <td class = "breakfastHour"> 9 - 10 </td>
+                    <td class = "breakfastHour"> 9 - 10 </td>
+                </tr>
+
+                <tr>
+                    <td id = "break"> Break </td>
+                    <td class = "breakHour" colspan = "2"> 11:30 - 12:30 </td>
+                    <td class = "breakHour" colspan = "3"> 11:45 - 12:45 </td>
+                </tr>
+
+                <tr>
+                    <td id = "lunch"> Comida </td>
+                    <td class = "lunchHour" colspan = "4"> 13:30 - 15 </td>
+                    <td class = "lunchHour"> 14 - 16 </td>
+                </tr>
+
+            </table>
+        </section>
+
+        <section>
+            <p>
+                Los <strong class = "rojo"> horarios </strong> que aparecen en esta página <strong class = "rojo resaltado"> podrán modificarse</strong>.
+            </p>
+            <p>
+                Cualquier <strong> consulta </strong> debe enviarse a <a href = "mailto:campusVerano2020@ucm.es"> campusVerano2020@ucm.es </a>
+            </p>
+        </section>
+
+        <section>
+            <div class = "social">
+
+                <div id = "facebook">
+                    <a href = "https://www.facebook.com/UniComplutense">
+                        <img src = "./style/facebook.png" alt = "Imagen del logo de facebook">    
+                    </a>
+                </div>
+
+                <div id = "twitter">
+                    <a href = "https://twitter.com/unicomplutense">
+                        <img src = "./style/twitter.png" alt = "Imagen del logo de twitter">
+                    </a>
+                </div>
+
+                <div id = "instagram">
+                    <a href = "https://www.instagram.com/uni.complutense/"> 
+                        <img src = "./style/instagram.png" alt = "Imagen del logo de instagram">
+                    </a>
+                </div>
+
             </div>
-            <div id = "instagram">
-                <a href = ""> Instagram </a>
-            </div>
-        </div>
+        </section>
+        
     </body>
 
 </html>
