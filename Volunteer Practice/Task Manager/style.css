@@ -1,0 +1,32 @@
+.header {
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+#logo {
+    color: red;
+    text-align: center;
+    margin-right: 84%;
+    padding: 20px;
+    border: 2px solid rgba(133, 133, 241, 0.541);
+}
+
+.user {
+    background-color: green;
+    float: right;
+    width: 35%;
+    height: 130px;
+}
+
+#imageUser {
+    margin-right: 70%;
+    padding: 63px;
+    border: 2px solid rgba(133, 133, 241, 0.541);
+}
