@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer > div{
+    border: none;
+    background-color: white;
+    display: visible;
+    margin-left: 75%;
+}

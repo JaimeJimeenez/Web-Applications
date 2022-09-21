@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    background-color: purple;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+section {
+    margin-top: 10px;
+}
+
+span > p {
+    background-color: green;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer div {
+    display: none;
+}

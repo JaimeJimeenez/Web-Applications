@@ -1,0 +1,54 @@
+.contener {
+    background-color: yellow;
+    padding: 30px;
+    height: 85px;
+}
+
+#element {
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-right: 90%;
+    padding: 55px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.contenerRow {
+    background-color: blue;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+ul li {
+    margin: 12px;
+    flex-grow: 1;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+}
+
+a:hover {
+    background-color: lightcoral;
+}
+
+.contenerColumn {
+    flex-direction: column;
+    width: 25%;
+    background-color: green;
+}
+
+.elementColumn {
+    text-align: center;
+}

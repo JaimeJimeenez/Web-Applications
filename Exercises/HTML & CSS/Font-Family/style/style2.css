@@ -1,0 +1,11 @@
+h1 {
+    margin-bottom: 10px;
+}
+
+div {
+    margin: 5px;
+}
+
+div > p {
+    padding: 10px;
+}
