@@ -30,3 +30,8 @@ h3 {
     padding: 63px;
     border: 2px solid rgba(133, 133, 241, 0.541);
 }
+
+.tasks {
+    height: 20em;
+    position: relative;
+}
