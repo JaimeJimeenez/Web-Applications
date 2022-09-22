@@ -16,58 +16,131 @@
             <h1> Suscripción a la revista </h1>
         </header>
 
-        <section>
-            <ul>
-                <li>
-                    <fieldset>
-                        <legend> Datos personales </legend>
-                        <span>
-                            
-                            <label for = "name">
-                                <span>
-                                    Nombre: <input type = "text" name = "name">
-                                </span>
-                            </label>
-                            <label for = "LastName">
-                                <span>
-                                    Primer Apellido: <input type = "text" name = "lastName">
-                                </span>
-                            </label>
-                        </span>
-                    </fieldset>
-                </li>
-                <li>
-                    <fieldset>
-                        <legend> Nivel de estudios e intereses</legend>
-                        <div>
+        <form action = ""> 
 
-                        </div>
-                    </fieldset>
-                </li>
-            </ul>
-        </section>
-        
-        <section>
-            <ul>
-                <li>
-                    <fieldset>
-                        <legend> Datos sobre la revista </legend>
-                        <div> </div>
-                    </fieldset>
-                </li>
-                <li>
-                    <fieldset>
-                        <legend> Comenzar de nuevo </legend>
-                        <div> </div>
-                    </fieldset>
-                </li>
-                <li>
-                    <fieldset>
-                        <legend> Enviar </legend>
-                        <div> </div>
-                    </fieldset>
-                </li>
-            </ul>
-        </section>
+           <section>
+                <fieldset>
+
+                    <legend> Datos personales </legend>
+                    <div id = "name"> 
+
+                        <label for = "Name: "> Nombre: </label>
+                        <input type="text" name = "name"> 
+                        
+                    </div>
+
+                    <div id = "lastName">
+                        
+                        <label for = "lastName"> Primer apellido: </label>
+                        <input type = "text" name = "lastName">
+                
+                    </div>
+
+                    <div id = "secondLast">
+
+                        <label for = "secondLast"> Segundo apellido: </label>    
+                        <input type = "text" name = "secondLast">
+
+                    </div>
+
+                    <div id = "direction">
+
+                        <label for = "direction"> Dirección: </label>
+                        <input type = "text" name = "direction">
+                    
+                    </div>
+
+                    <div id="email">
+
+                        <label for = "email"> Email: </label>    
+                        <input type = "email" name = "email">
+                        
+                    </div>
+
+                    <div id="password">
+
+                        <label for = "password"> Contraseña: </label>
+                        <input type = "password" name = "password">
+                        
+                    </div>
+
+                    <div id = "gender">
+
+                        <label for = "gender"> Sexo: </label>
+                            <input type = "radio" name = "gender" value = "man"> Varón
+                            <input type = "radio" name = "gender" value = "woman"> Mujer
+                        </label>
+
+                    </div>
+
+                </fieldset>
+           </section>
+
+           <section>
+                <fieldset>
+                    <legend> Nivel de estudios e intereses </legend>
+
+                    <div id = "level">
+                        Nivel de estudios
+
+                        <select name = "level" id = "studies">
+
+                            <option value = "noStud"> Sin estudios </option>
+                            <option value = "certSch"> Certificado escolar </option>
+                            <option value = "ESO"> ESO </option>
+                            <option value = "bach"> Bachillerato </option>
+                            <option value = "uni"> Grado Universitario </option>
+                            <option value = "master"> Master Universitario </option>
+                            <option value = "doct"> Doctorado </option>
+
+                        </select>
+                    
+                    </div>
+
+                    <div id = "articles">
+                        <p>Recibir articulos de los siguientes temas:</p>
+                        
+                        <ul>
+                            <li> <input type = "checkbox"> Musica </li>
+                            <li> <input type = "checkbox"> Deportes </li>
+                            <li> <input type = "checkbox"> Cine </li>
+                            <li> <input type = "checkbox"> Libros </li>
+                            <li> <input type = "checkbox"> Ciencia </li>
+                        </ul>
+
+                    </div>
+
+                </fieldset>
+           </section>
+
+           <br>
+
+           <section>
+                <fieldset>
+                    <legend> Datos sobre la revista </legend>
+                    <div>
+
+                    </div>
+                </fieldset>
+           </section>
+
+           <section>
+                <fieldset>
+                    <legend> Comenzar de nuevo </legend>
+                    <div>
+
+                    </div>
+                </fieldset>
+           </section>
+
+           <section>
+                <fieldset>
+                    <legend> Enviar </legend>
+                    <div>
+
+                    </div>
+                </fieldset>
+           </section>
+        </form> 
     </body>
 </html>
