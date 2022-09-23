@@ -118,8 +118,30 @@
            <section>
                 <fieldset>
                     <legend> Datos sobre la revista </legend>
-                    <div>
+                    <div id = "frequency">
+                        Frecuencia con la que quieres recibir la revista:
+                        <select name = "level" id = "studies">
 
+                            <option value = "everyday"> Diaria </option>
+                            <option value = "week " > Semanal </option>
+                            <option value = "month"> Mensual </option>
+                            <option value = "year"> Anual </option> 
+
+                        </select>
+
+                    </div>
+
+                    <div id = "fileTopic">
+                        Temas que te gustaría ver en la revista: 
+
+                        <input type = "file" name = "topic" id = "topic">
+                    </div>
+
+                    <div id = "coments">
+
+                        <textarea name = "observations" id = "obs" cols="30" rows="10">
+                            Algún comentario de interés que necesitemos saber
+                        </textarea>
                     </div>
                 </fieldset>
            </section>
@@ -128,7 +150,7 @@
                 <fieldset>
                     <legend> Comenzar de nuevo </legend>
                     <div>
-
+                        <input type = "reset" name = "startOver">
                     </div>
                 </fieldset>
            </section>
@@ -137,7 +159,7 @@
                 <fieldset>
                     <legend> Enviar </legend>
                     <div>
-
+                        <input type = "submit" value = "Enviar">
                     </div>
                 </fieldset>
            </section>

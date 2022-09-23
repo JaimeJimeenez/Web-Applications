@@ -6,16 +6,12 @@ h1 {
 fieldset {
     border-radius: 10px;
     border-color: rgba(0, 153, 255, 0.327);
-    margin-right: 25%;
-    margin-left: 25%;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 div {
     float: left;
-}
-
-#name {
-    width: 23%;
 }
 
 #secondLast {
@@ -57,4 +53,16 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+#frequency {
+    width: 100%;
+    float: left;
+    clear: right;
+}
+
+#fileTopic {
+    width: 100%;
+    float: left;
+    clear: right;
 }
