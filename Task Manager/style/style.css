@@ -2,12 +2,16 @@ header {
     height: 200px;
 }
 
-.tasks {
-    text-align: center;
-}
-
 ul {
     list-style-type: none;
+}
+
+ul li {
+    padding: 25px;
+    margin: 20px;
+    border: 2px solid rgba(17, 55, 91, 0.716);
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 ul li a {
@@ -16,4 +20,26 @@ ul li a {
 
 .finalished {
     text-decoration: line-through;
+}
+
+.tags ul {
+    background-color: green;
+    width: 20px;
+}
+
+.tags li {
+    margin: 5px;
+    background-color: grey;
+    margin-right: 75%;
+}
+
+label {
+    border: 2px solid rgba(17, 55, 91, 0.716);
+    margin-right: 10px;
+    padding: 10px;
+}
+
+input[type=button] {
+    color: red; 
+    float: right;
 }
