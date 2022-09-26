@@ -5,7 +5,7 @@
     <head>
 
         <title> Formularies </title>
-        <meta charset = "UTF - 8">
+        <meta charset = "utf-8">
         <link rel = "stylesheet" href = "./style/style.css">
 
     </head>
@@ -16,60 +16,61 @@
             <h1> Suscripción a la revista </h1>
         </header>
 
-        <form action = ""> 
+        <form action = "index.html"> 
 
            <section>
                 <fieldset>
 
                     <legend> Datos personales </legend>
-                    <div id = "name"> 
+                    <div id = "username"> 
 
-                        <label for = "Name: "> Nombre: </label>
-                        <input type="text" name = "name"> 
+                        <label for = "name"> Nombre: </label>
+                        <input type = "text" name = "name" id = "name"> 
                         
                     </div>
 
-                    <div id = "lastName">
+                    <div id = "userLastName">
                         
                         <label for = "lastName"> Primer apellido: </label>
-                        <input type = "text" name = "lastName">
+                        <input type = "text" name = "lastName" id = "lastName">
                 
                     </div>
 
-                    <div id = "secondLast">
+                    <div id = "userSecondLast">
 
                         <label for = "secondLast"> Segundo apellido: </label>    
-                        <input type = "text" name = "secondLast">
+                        <input type = "text" name = "secondLast" id = "secondLast">
 
                     </div>
 
-                    <div id = "direction">
+                    <div id = "userDirection">
 
                         <label for = "direction"> Dirección: </label>
-                        <input type = "text" name = "direction">
+                        <input type = "text" name = "direction" id = "direction">
                     
                     </div>
 
-                    <div id="email">
+                    <div id = "userEmail">
 
                         <label for = "email"> Email: </label>    
-                        <input type = "email" name = "email">
+                        <input type = "email" name = "email" id = "email">
                         
                     </div>
 
-                    <div id="password">
+                    <div id = "userPassword">
 
                         <label for = "password"> Contraseña: </label>
-                        <input type = "password" name = "password">
+                        <input type = "password" name = "password" id = "password">
                         
                     </div>
 
-                    <div id = "gender">
-
-                        <label for = "gender"> Sexo: </label>
-                            <input type = "radio" name = "gender" value = "man"> Varón
-                            <input type = "radio" name = "gender" value = "woman"> Mujer
-                        </label>
+                    <div id = "userGender">
+                        Sexo:
+                        
+                        <label for = "maleGender"> Varón </label>
+                        <input type = "radio" name = "gender" value = "man" id = "maleGender"> 
+                        <label for = "womanGender"> Mujer </label>
+                        <input type = "radio" name = "gender" value = "woman" id = "womanGender"> 
 
                     </div>
 
@@ -120,7 +121,7 @@
                     <legend> Datos sobre la revista </legend>
                     <div id = "frequency">
                         Frecuencia con la que quieres recibir la revista:
-                        <select name = "level" id = "studies">
+                        <select name = "level" id = "time">
 
                             <option value = "everyday"> Diaria </option>
                             <option value = "week " > Semanal </option>

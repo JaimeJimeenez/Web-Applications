@@ -14,22 +14,22 @@ div {
     float: left;
 }
 
-#secondLast {
+#userSecondLast {
     clear: right;
 }
 
-#direction {
+#userDirection {
     float: left;
     clear: right;
     width: 100%;
 }
 
-#email {
+#userEmail {
     clear: right;
     width: 100%;
 }
 
-#password {
+#userPassword {
     clear: right;
     width: 100%;
 }

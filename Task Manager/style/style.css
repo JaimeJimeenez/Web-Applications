@@ -43,3 +43,15 @@ input[type=button] {
     color: red; 
     float: right;
 }
+
+#options {
+    text-align: center;
+    background-color: grey;
+}
+
+#deleteAll {
+    border: 2px solid rgba(17, 55, 91, 0.716);
+    background-color: green;
+    width: 25%;
+    margin-left: 26.5%;
+}
