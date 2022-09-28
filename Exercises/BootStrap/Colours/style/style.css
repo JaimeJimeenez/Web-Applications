@@ -1,0 +1,9 @@
+.extern {
+    height: 6em;
+    background: grey;
+    border: 2px solid black;
+}
+
+.col {
+    height: 3em
+}

@@ -31,6 +31,7 @@ h1 {
 
 #tc {
     font-style: italic;
+    border: 2px solid grey;
 }
 
 .tcGrey {
